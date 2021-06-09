@@ -1,4 +1,5 @@
 import React from "react";
+
 export default function IntegerInput(props) {
   function processInput(event) {
     const value = event.target.value;
