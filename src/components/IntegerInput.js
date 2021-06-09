@@ -1,4 +1,5 @@
 import React from "react";
+import { stringIsNaturalNumber } from "../utils";
 
 export default function IntegerInput(props) {
   function processInput(event) {
@@ -9,11 +10,7 @@ export default function IntegerInput(props) {
       props.setValue(value);
       return;
     }
-    // we delete all the numbers inside the string
-    // if the result is an empty string, it is an integer
-    const isInteger = value.replace(/\d+/, "") === "";
-    // in case it is not an integer do nothing
-    if (!isInteger) return;
+    if (!stringIsNaturalNumber(value)) return;
     const integer = parseInt(value);
     props.setValue(integer);
   }
