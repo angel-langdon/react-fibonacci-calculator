@@ -8,11 +8,13 @@ export default function IntegerInput(props) {
     // set it and do nothing
     if (value === "") {
       props.setValue(value);
+      props.setResult(undefined);
       return;
     }
     if (!stringIsNaturalNumber(value)) return;
     const integer = parseInt(value);
     props.setValue(integer);
+    props.setResult(undefined);
   }
 
   return (
