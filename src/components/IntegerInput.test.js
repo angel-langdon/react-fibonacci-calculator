@@ -21,7 +21,12 @@ test("It should not change the input value if a non-integer is specified", () =>
   // at first it should be empty
   expect(integerInput.value).toBe("");
   // characters
-  fireEvent.change(integerInput, { target: { value: "Hello World" } });
+  fireEvent.change(integerInput, { target: { value: "Hello World\n" } });
+  expect(integerInput.value).toBe("");
+  // characters and numbers
+  fireEvent.change(integerInput, {
+    target: { value: "12312313 Hello World\n" },
+  });
   expect(integerInput.value).toBe("");
   // negative numbers
   fireEvent.change(integerInput, { target: { value: "-123123123" } });
