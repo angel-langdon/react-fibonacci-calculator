@@ -1,5 +1,5 @@
 import "./App.css";
-import IntegerInput from "./IntegerInput";
+import NaturalNumberInput from "./NaturalNumberInput";
 import CalculationResult from "./CalculationResult";
 import { useState } from "react";
 import { Fibonacci } from "../utils";
@@ -17,7 +17,7 @@ function App() {
     <div className="App-container column">
       <div className="column horizontal-center">
         <h1>Fibonacci Calculator</h1>
-        <IntegerInput
+        <NaturalNumberInput
           value={inputValue}
           setValue={setInputValue}
           setResult={setResult}
