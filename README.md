@@ -51,7 +51,6 @@
 - For this purpose I have modified CSS to make the app look good.
 
 ## Folder structure:
-
 ```
 react-fibonacci-calculator
 ├── LICENSE
@@ -90,6 +89,18 @@ react-fibonacci-calculator
         └── string-utils.test.js
 ```
 
+&nbsp;
 
+&nbsp;
+## App screenshots:
+
+![](/screenshots/app1.png)
+![](/screenshots/app2.png)
+![](/screenshots/app3.png)
+
+
+&nbsp;
+
+&nbsp;
 ## Tests coverage:
 ![Test coverage](/screenshots/coverage.png)
