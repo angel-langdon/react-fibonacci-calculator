@@ -7,7 +7,7 @@ export default function CalculationResult(props) {
   if (props.isLoading)
     return (
       <div className={className}>
-        <div className="loader " />
+        <div className="loader" />
       </div>
     );
   if (props.result === undefined)
