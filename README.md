@@ -27,7 +27,7 @@
 - For this I have added some validation in the `NaturalNumberInput` component
 
 [X] When you click the button, the app should get the value from the input, send it to a function that will run some calculations and then display the result inside the empty div
-- For this I had to create a React state variables using `useState` hook in the `App`component
+- For this I had to create React state variables using `useState` hook in the `App`component
 ``` javascript
   const [inputValue, setInputValue] = useState("");
   const [result, setResult] = useState(undefined);
@@ -92,4 +92,4 @@ react-fibonacci-calculator
 
 
 ## Tests coverage:
-![](coverage.png)
+![Test coverage](/screenshots/coverage.png)
