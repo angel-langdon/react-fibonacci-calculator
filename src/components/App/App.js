@@ -4,7 +4,7 @@ import CalculationResult from "components/CalculationResult/CalculationResult";
 import { useState, useEffect } from "react";
 import { Fibonacci } from "utils/fibonacci";
 
-function App() {
+export default function App() {
   const [inputValue, setInputValue] = useState("");
   const [result, setResult] = useState(undefined);
   const [isLoading, setIsLoading] = useState(false);
@@ -42,5 +42,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
