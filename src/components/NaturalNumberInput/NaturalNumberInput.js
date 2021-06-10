@@ -1,4 +1,3 @@
-/* global BigInt */
 import React from "react";
 import { stringIsNaturalNumber } from "utils/string-utils";
 import "./NaturalNumberInput.css";
