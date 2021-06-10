@@ -21,6 +21,3 @@ html {
 .horizontal-center {
   align-items: center;
 }
-.wrap-content {
-  flex-wrap: wrap;
-}
