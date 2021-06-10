@@ -1,3 +1,4 @@
+/* global BigInt */
 import React from "react";
 import { stringIsNaturalNumber } from "utils/string-utils";
 import "./NaturalNumberInput.css";
@@ -13,7 +14,7 @@ export default function IntegerInput(props) {
       return;
     }
     if (!stringIsNaturalNumber(value)) return;
-    const integer = parseInt(value);
+    const integer = BigInt(value); // we use BigInt to prevent precision errors
     props.setValue(integer);
     props.setResult(undefined);
   }
