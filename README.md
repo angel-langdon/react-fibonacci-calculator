@@ -3,7 +3,24 @@
 ### The app should be available here:
 - https://entredatos.es/react-fibonacci-calculator/
 
-## Requirements:
+&nbsp;
+## Steps to work with the app locally:
+
+- Clone the github repo:
+```bash
+git clone https://github.com/angel-langdon/react-fibonacci-calculator.git
+```
+- Change into directory, install packages and start application
+```bash
+cd react-fibonacci-calculator
+npm install
+npm start
+```
+
+&nbsp;
+
+
+## App Requirements:
 
 [X] The app will have a main component centered on the page both horizontal and vertical
 - For this requirement I have created a div with these css styles and inside the div is all the app content
