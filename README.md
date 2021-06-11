@@ -1,9 +1,12 @@
 # Fibonacci Calculator
 
+### The app should be available here:
+- https://entredatos.es/react-fibonacci-calculator/
+
 ## Requirements:
 
-[X] The app will have a main component centred on the page both horizontal and vertical
-- For this purpose a have created a div with these css styles
+[X] The app will have a main component centered on the page both horizontal and vertical
+- For this requirement I have created a div with these css styles and inside the div is all the app content
 
 ``` css
 .App-container {
@@ -18,16 +21,16 @@
 
 [X] The component will display an input field, a button and an empty div where we will display some information
 
-- For this I have created different React components:
+- For this requirement I have created different React components:
   - `NaturalNumberInput`
   - `CalculationResults`
 
 
 [X] The input field should allow only numeric values
-- For this I have added some validation in the `NaturalNumberInput` component
+- For this requirement I have added text validation in the `NaturalNumberInput` component
 
 [X] When you click the button, the app should get the value from the input, send it to a function that will run some calculations and then display the result inside the empty div
-- For this I had to create React state variables using `useState` hook in the `App`component
+- For this requirement I had to create React state variables using `useState` hook in the `App`component
 ``` javascript
   const [inputValue, setInputValue] = useState("");
   const [result, setResult] = useState(undefined);
@@ -42,13 +45,13 @@
   - Fibonacci(6) = 8
   - Fibonacci(10) = 55
 
- For this purpose I have created a module `fibonacci.js` that handles all the calculations.
+### I have created a module `fibonacci.js` that handles all the calculations.
 
 [X] Unit test are optional
-- I have made unit test for all components/utils and also two integration tests.
+- I have made unit tests for all components and utils and also two integration tests.
 
 [X] CSS, design and any other addition to the app are optional as well but feel free to add whatever you want here if you feel the need
-- For this purpose I have modified CSS to make the app look good.
+- I have modified CSS to make the app look good.
 
 ## Folder structure:
 ```
