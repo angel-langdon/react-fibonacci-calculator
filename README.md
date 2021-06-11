@@ -65,7 +65,7 @@ npm start
 ### I have created a module `fibonacci.js` that handles all the calculations.
 
 [X] Unit test are optional
-- I have made unit tests for all components and utils and also two integration tests.
+- I have made unit tests for all components and utils and also three integration tests.
 
 [X] CSS, design and any other addition to the app are optional as well but feel free to add whatever you want here if you feel the need
 - I have modified CSS to make the app look good.
